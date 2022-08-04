@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+@import 'libs/_var.scss';
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    padding: 0;
+    margin: 0;
+    color: $black-color;
+}
+
+ul, li {
+    list-style-type: none;
+}
+
+a {
+    color: $black-color;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1400px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
