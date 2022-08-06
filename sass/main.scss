@@ -33,6 +33,8 @@ a {
     padding: 0 30px;
     margin: 0 auto;
 }
-
+@import 'blocks/_title';
+@import 'blocks/_text';
+@import 'blocks/_btn';
 @import 'blocks/_header';
 

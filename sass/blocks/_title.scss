@@ -1,0 +1,44 @@
+.title {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: auto;
+    color: #000000;
+}
+
+.sub-title {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 80px;
+    color: $dark-color;
+}
+@media(max-width: 992px) {
+    .title {
+        font-size: 36px;
+    }
+
+    .sub-title {
+        font-size: 22px;
+    }
+}
+
+@media(max-width: 767px) {
+    .title {
+        font-size: 30px;
+    }
+
+    .sub-title {
+        font-size: 20px;
+    }
+}
+
+@media(max-width: 575px) {
+    .sub-title {
+        font-size: 18px;
+    }
+}
+
+@media(max-width: 320px) {
+    .title {
+        font-size: 24px;
+    }
+}
