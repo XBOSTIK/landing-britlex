@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
-@import 'libs/_var.scss';
+@import 'base/_var.scss';
 
 * {
     box-sizing: border-box;
@@ -19,6 +19,8 @@ h1, h2, h3, h4, h5, h6, p {
 
 ul, li {
     list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 
 a {
@@ -31,3 +33,6 @@ a {
     padding: 0 30px;
     margin: 0 auto;
 }
+
+@import 'blocks/_header';
+
