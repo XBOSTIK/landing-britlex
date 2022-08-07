@@ -60,6 +60,11 @@ button {
     transition: all 0.4s ease;
 }
 
+@media(max-width: 320px) {
+    .container {
+        padding: 0 15px;
+    }
+}
 @import 'blocks/_title';
 @import 'blocks/_text';
 @import 'blocks/_btn';
@@ -67,3 +72,4 @@ button {
 @import 'blocks/_first';
 
 @import 'media/_header-media';
+@import 'media/_fisrt-media';
