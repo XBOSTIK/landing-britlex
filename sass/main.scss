@@ -28,6 +28,9 @@ a {
     text-decoration: none;
 }
 
+button {
+    padding: 0;
+}
 .container {
     max-width: 1400px;
     padding: 0 30px;
@@ -61,6 +64,6 @@ a {
 @import 'blocks/_text';
 @import 'blocks/_btn';
 @import 'blocks/_header';
-
+@import 'blocks/_first';
 
 @import 'media/_header-media';
