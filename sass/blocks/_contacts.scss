@@ -1,0 +1,56 @@
+.contacts {
+    padding: 100px 0;
+    &__inner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        &-info {
+            max-width: 800px;
+        }
+
+        &-img {
+            max-width: 450px;
+            height: 400px;
+        }
+        &-title {
+            margin-bottom: 40px;
+        }
+
+        &-text {
+            font-size: 20px;
+            margin-bottom: 50px;
+            line-height: 30px;
+        }
+    }
+
+}
+
+.subscribe-form {
+    width: 100%;
+    &__input {
+        border: 1px solid #8F95A5;
+        border-radius: 10px;     
+        font-size: 16px;
+        padding: 25px 30px;  
+        width: 60%;
+        margin-right: 10px;
+    }
+
+    &__button{
+        background: #263238;
+        border-radius: 10px;font-size: 20px;
+        line-height: 30px;
+        font-weight: 500;
+        font-size: 20px;
+        color: #FFFFFF;
+        padding: 18px 80px;
+        border: 2px solid $dark-color;;
+        cursor: pointer;
+        transition: color 0.4s ease-in, background .4s ease-in;
+        &:hover {
+            background: transparent;
+            border: 2px solid $dark-color;
+            color: $dark-color;
+        }
+    }
+}
