@@ -479,6 +479,18 @@ button {
           align-items: center;
 }
 
+.about__inner-text {
+  margin-right: 25px;
+}
+
+.about__inner-img {
+  max-width: 500px;
+}
+
+.about__inner-img img {
+  width: 100%;
+}
+
 .about__title {
   margin-bottom: 15px;
 }
