@@ -620,12 +620,16 @@ button {
 }
 
 .contacts__inner-info {
-  max-width: 800px;
+  max-width: 750px;
 }
 
 .contacts__inner-img {
   max-width: 450px;
-  height: 400px;
+  margin-right: 20px;
+}
+
+.contacts__inner-img img {
+  width: 100%;
 }
 
 .contacts__inner-title {
@@ -647,7 +651,7 @@ button {
   border-radius: 10px;
   font-size: 16px;
   padding: 25px 30px;
-  width: 60%;
+  width: 55%;
   margin-right: 10px;
 }
 
@@ -1228,5 +1232,54 @@ button {
   }
   .price__cost-value {
     font-size: 22px;
+  }
+}
+
+@media (max-width: 992px) {
+  .contacts__inner-info {
+    max-width: 500px;
+  }
+  .contacts__inner-img {
+    max-width: 300px;
+  }
+  .subscribe-form__input {
+    width: 55%;
+  }
+  .subscribe-form__button {
+    font-size: 16px;
+    line-height: 24px;
+    padding: 18px 50px;
+  }
+}
+
+@media (max-width: 767px) {
+  .contacts__inner-img {
+    display: none;
+  }
+  .contacts__inner-info {
+    max-width: 100%;
+    text-align: center;
+  }
+  .contacts__inner-text {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .subscribe-form__input {
+    width: 60%;
+  }
+}
+
+@media (max-width: 575px) {
+  .contacts__inner-text {
+    font-size: 13px;
+  }
+  .subscribe-form__input {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 20px;
+    padding: 15px 20px;
+  }
+  .subscribe-form__button {
+    width: 100%;
   }
 }
