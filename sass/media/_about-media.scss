@@ -1,0 +1,118 @@
+@media(max-width: 992px){
+    .about {
+        &__inner {
+            &-img {
+                max-width: 300px;
+            }
+        }
+        &__text {
+            max-width: 480px;
+            line-height: 24px;
+            font-size: 16px;
+            margin-bottom: 15px;
+            margin-right: 15px;
+        }
+    
+        &__stat {
+            justify-content: flex-start;
+            &-item + &-item {
+                margin-left: 10%;
+            }
+            &-number {
+                font-size: 22px;
+                line-height: 50px;
+            }
+    
+            &-desc {
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+@media(max-width: 767px){
+    .about {
+        &__inner {
+            &-img {
+                max-width: 270px;
+            }
+        }
+        &__text {
+            max-width: 320px;
+            line-height: 21px;
+            font-size: 14px;
+        }
+    
+        &__stat {
+            &-number {
+                font-size: 22px;
+                line-height: 50px;
+            }
+    
+            &-desc {
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+
+@media(max-width: 575px){
+    .about {
+        &__inner {
+            flex-direction: column;
+            align-items: center;
+
+            &-text {
+                order: 2;
+                margin-right: 0;
+            }
+
+            &-img {
+                margin-bottom: 25px;
+            }
+        }
+
+        &__title {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        &__text {
+            max-width: 100%;
+            text-align: center;
+            margin-right: 0;
+        }
+
+        &__stat {
+            max-width: 350px;
+            margin: 0 auto;
+            justify-content: space-between;
+            align-items: center;
+            &-item + &-item {
+                margin-left: 0;
+            }
+        }
+    }
+}
+
+
+
+@media(max-width: 320px){
+    .about{
+
+        &__text {
+            font-size: 13px;
+        }
+        &__stat {
+            flex-direction: column;
+            max-width: 100%;
+            align-items: center;
+            justify-content: center;
+
+            &-item + &-item {
+                margin-top: 20px;
+            }
+
+        }
+    }
+}

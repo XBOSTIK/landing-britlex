@@ -3,13 +3,13 @@
     &__inner {
         display: flex;
         justify-content: space-between;
-        align-items: center;
+        align-items: flex-start;
         &-text {
             margin-right: 25px;
         }
 
         &-img {
-            max-width: 500px;
+            max-width: 360px;
             img {
                 width: 100%;
             }
@@ -17,20 +17,20 @@
     }
 
     &__title {
-        margin-bottom: 15px;
+        margin-bottom: 40px;
     }
 
     &__text {
-        max-width: 635px;
+        max-width: 700px;
         line-height: 30px;
         font-size: 20px;
-        margin-bottom: 35px;
+        margin-bottom: 25px;
     }
 
     &__stat {
         display: flex;
         justify-content: space-between;
-        align-items: center;
+        align-items: flex-start;
 
         &-number {
             font-weight: 600;
