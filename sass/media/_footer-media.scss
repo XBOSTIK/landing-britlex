@@ -1,0 +1,44 @@
+@media(max-width: 992px){
+    .footer{
+        padding: 60px 0 30px 0;
+        &__inner {
+            padding-top: 20px;
+    
+            &-police {
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+
+@media(max-width: 767px){
+    .footer{
+        padding: 60px 0 20px 0;
+        &__inner {
+            padding-top: 15px;
+    
+            &-police {
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+@media(max-width: 575px){
+    .footer{
+        &__inner {
+            padding-top: 25px;
+            display: block;
+            text-align: center;
+
+            &-police {
+                font-size: 11px;
+            }
+        }
+
+        &__logo {
+            margin-bottom: 20px;
+        }
+    }
+}
