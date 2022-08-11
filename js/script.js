@@ -1,3 +1,5 @@
+new WOW().init();
+
 const open = document.querySelector('.burger')
 const close = document.querySelector('.close-menu')
 const inner = document.querySelector('.header__wrapper-inner')
